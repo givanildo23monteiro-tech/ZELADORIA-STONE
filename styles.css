@@ -273,7 +273,7 @@ body {
 @media (max-width: 768px) {
     .hero {
         background-attachment: scroll;
-        background-size: contain;
+        background-size: over;
         background-position: center center;
         background-repeat: no-repeat;
     }
