@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (whatsappBtn) {
         whatsappBtn.addEventListener('click', function(e) {
             e.preventDefault();
-            const phone = '5511999999999'; // Substitua pelo número real
+            const phone = '5512988133677'; // Substitua pelo número real
             const message = 'Olá! Gostaria de solicitar um orçamento para os serviços da Stone Zeladoria.';
             const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             window.open(url, '_blank');
